@@ -1,4 +1,4 @@
-![Security_Flowchart](https://github.com/user-attachments/assets/c346088e-38d7-43d4-9de0-de6439c9aafc)
+
 # Hospital Web Application – Security Audit Overview
 
 ##  Overview
@@ -17,17 +17,7 @@ However, the architecture currently lacks critical security implementations, exp
 
 ## Identified Security Flow
 
-```text
-Doctor Login       Patient Login
-     ↓                  ↓
-  Login API → Web App (no 2FA | no HTTPS/TLS)
-     ↓
-Health Record API        →     Unencrypted DB
-     ↓                          ↑
-Insurance API          Lab Report API
-     ↓
-      Output: View/Edit Records
-```
+![Security_Flowchart](https://github.com/user-attachments/assets/c346088e-38d7-43d4-9de0-de6439c9aafc)
 
 ---
 
